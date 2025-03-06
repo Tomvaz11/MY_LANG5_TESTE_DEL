@@ -1,0 +1,2 @@
+[console_scripts]
+my_lang = my_lang.src.app:main

@@ -1,0 +1,525 @@
+2025-03-04 20:21:34,545 - __main__ - INFO - Iniciando chatbot com LangMem
+2025-03-04 20:21:34,546 - __main__ - INFO - Criando armazenamento de memória
+2025-03-04 20:21:40,045 - __main__ - INFO - Criando agente de chat com gerenciador de memória
+2025-03-04 20:21:40,046 - src.agent.chat_agent - INFO - Criando agente de chat com modelo gpt-4o-mini
+2025-03-04 20:21:40,047 - src.agent.chat_agent - INFO - Configurando ferramentas de memória
+2025-03-04 20:21:40,069 - src.agent.chat_agent - INFO - Inicializando modelo gpt-4o-mini
+2025-03-04 20:21:44,784 - src.agent.chat_agent - INFO - Criando agente ReAct com ferramentas de memória
+2025-03-04 20:21:44,833 - src.agent.chat_agent - INFO - Criando gerenciador de memória em segundo plano
+2025-03-04 20:21:44,834 - memory_background - INFO - Criando gerenciador de memória em segundo plano com modelo gpt-4o-mini
+2025-03-04 20:21:49,788 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:21:49,788 - memory_background - INFO - Gerenciador de memória em segundo plano criado com sucesso
+2025-03-04 20:21:49,788 - src.agent.chat_agent - INFO - Criando gerenciador de perfis de usuário
+2025-03-04 20:21:50,803 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:21:51,806 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:21:52,820 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:21:53,823 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:21:54,502 - src.agent.chat_agent - INFO - Agente de chat criado com sucesso
+2025-03-04 20:21:54,503 - __main__ - INFO - Criando API
+2025-03-04 20:21:54,504 - src.api.routes - INFO - Inicializando API do chatbot
+2025-03-04 20:21:54,509 - src.api.routes - INFO - API do chatbot inicializada com sucesso
+2025-03-04 20:21:54,509 - __main__ - INFO - Iniciando servidor na porta 8000...
+2025-03-04 20:21:54,839 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:21:55,852 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:21:56,856 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:21:57,869 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:21:58,872 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:21:59,886 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:00,888 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:01,890 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:02,893 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:03,894 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:04,896 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:05,905 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:06,909 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:07,914 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:08,921 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:09,939 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:10,945 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:11,949 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:12,952 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:13,960 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:14,976 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:15,988 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:17,001 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:18,014 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:19,016 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:20,029 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:21,043 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:22,054 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:23,056 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:24,057 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:25,061 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:26,074 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:27,077 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:28,085 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:28,297 - src.api.routes - INFO - Processando mensagem. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa, Mensagem: ola, tudo bem? meu nome é anto...
+2025-03-04 20:22:28,298 - src.agent.chat_agent - INFO - Processando chat. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa
+2025-03-04 20:22:29,088 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:29,551 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:22:30,094 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:30,665 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:22:31,101 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:32,112 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:22:32,527 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:22:32,602 - memory_background - INFO - Agendando processamento de memória para o usuário default_user com atraso de 30.0s
+2025-03-04 20:22:32,603 - src.api.routes - INFO - Resposta gerada para default_user: Olá, Antonio! Tudo bem, e você...
+2025-03-04 20:22:33,603 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:34,605 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:35,606 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:36,608 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:37,609 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:38,611 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:39,625 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:40,631 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:41,632 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:42,634 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:43,636 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:44,639 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:45,640 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:46,642 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:47,643 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:48,645 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:49,646 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:50,649 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:51,650 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:52,077 - src.api.routes - INFO - Processando mensagem. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa, Mensagem: quero saber qual a menor raça ...
+2025-03-04 20:22:52,078 - src.agent.chat_agent - INFO - Processando chat. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa
+2025-03-04 20:22:52,653 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:52,828 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:22:53,654 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:54,219 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:22:54,657 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:22:54,899 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:22:54,946 - memory_background - INFO - Agendando processamento de memória para o usuário default_user com atraso de 30.0s
+2025-03-04 20:22:54,947 - memory_background - INFO - Processamento de memória cancelado para o usuário default_user
+2025-03-04 20:22:54,947 - src.api.routes - INFO - Resposta gerada para default_user: A menor raça de cachorro do mu...
+2025-03-04 20:22:55,658 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:22:56,659 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:22:57,662 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:22:58,664 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:22:59,665 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:00,667 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:01,669 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:02,603 - langmem.reflection - ERROR - Error in local reflection worker: CANCELLED: <Future at 0x299a901c950 state=cancelled>
+2025-03-04 20:23:02,604 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:03,606 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:04,608 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:04,956 - src.api.routes - INFO - Processando mensagem. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa, Mensagem: sabe qual o meu nome?...
+2025-03-04 20:23:04,957 - src.agent.chat_agent - INFO - Processando chat. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa
+2025-03-04 20:23:05,609 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:05,932 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:23:06,611 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:07,090 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:23:07,612 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:07,984 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:23:08,005 - memory_background - INFO - Agendando processamento de memória para o usuário default_user com atraso de 30.0s
+2025-03-04 20:23:08,005 - src.api.routes - INFO - Resposta gerada para default_user: Sim, seu nome é Antonio! Se pr...
+2025-03-04 20:23:08,614 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:09,615 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:10,617 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:11,618 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:12,620 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:13,621 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:14,623 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:15,625 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:16,626 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:17,629 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:18,630 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:19,632 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:20,633 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:21,634 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:22,636 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:23,637 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:24,639 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:23:25,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:23:26,283 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:23:27,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:23:28,456 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:23:28,672 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:23:28,676 - memory_background - INFO - Processamento de memória concluído para o usuário default_user
+2025-03-04 20:23:28,677 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:29,679 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:30,681 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:31,683 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:32,684 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:33,685 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:34,686 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:35,688 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:36,689 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:37,691 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:23:38,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:23:39,591 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:23:42,012 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:23:42,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:23:42,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:23:42,856 - memory_background - INFO - Processamento de memória concluído para o usuário default_user
+2025-03-04 20:23:42,857 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:43,860 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:44,862 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:45,878 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:46,891 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:47,902 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:48,906 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:49,913 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:50,923 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:51,939 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:52,955 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:53,965 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:54,978 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:55,980 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:56,982 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:57,997 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:23:59,013 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:00,014 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:01,024 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:02,034 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:03,050 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:04,054 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:05,060 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:06,074 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:07,077 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:08,089 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:09,092 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:10,106 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:11,108 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:12,119 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:13,121 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:14,128 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:15,131 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:16,138 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:17,149 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:18,165 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:19,183 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:20,197 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:21,200 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:22,213 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:23,226 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:24,237 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:25,240 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:26,255 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:27,256 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:28,259 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:29,270 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:30,282 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:31,298 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:32,310 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:33,326 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:34,340 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:35,345 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:36,359 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:37,373 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:38,379 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:39,386 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:40,392 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:41,406 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:42,409 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:43,422 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:44,433 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:24:45,437 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:28:58,957 - __main__ - INFO - Iniciando chatbot com LangMem
+2025-03-04 20:28:58,960 - __main__ - INFO - Criando armazenamento de memória
+2025-03-04 20:29:04,177 - __main__ - INFO - Criando agente de chat com gerenciador de memória
+2025-03-04 20:29:04,178 - src.agent.chat_agent - INFO - Criando agente de chat com modelo gpt-4o-mini
+2025-03-04 20:29:04,179 - src.agent.chat_agent - INFO - Configurando ferramentas de memória
+2025-03-04 20:29:04,213 - src.agent.chat_agent - INFO - Inicializando modelo gpt-4o-mini
+2025-03-04 20:29:09,454 - src.agent.chat_agent - INFO - Criando agente ReAct com ferramentas de memória
+2025-03-04 20:29:09,502 - src.agent.chat_agent - INFO - Criando gerenciador de memória em segundo plano
+2025-03-04 20:29:09,504 - memory_background - INFO - Criando gerenciador de memória em segundo plano com modelo gpt-4o-mini
+2025-03-04 20:29:14,412 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:14,412 - memory_background - INFO - Gerenciador de memória em segundo plano criado com sucesso
+2025-03-04 20:29:14,414 - src.agent.chat_agent - INFO - Criando gerenciador de perfis de usuário
+2025-03-04 20:29:15,428 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:16,442 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:17,457 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:18,459 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:19,419 - src.agent.chat_agent - INFO - Agente de chat criado com sucesso
+2025-03-04 20:29:19,420 - __main__ - INFO - Criando API
+2025-03-04 20:29:19,421 - src.api.routes - INFO - Inicializando API do chatbot
+2025-03-04 20:29:19,427 - src.api.routes - INFO - API do chatbot inicializada com sucesso
+2025-03-04 20:29:19,428 - __main__ - INFO - Iniciando servidor na porta 8000...
+2025-03-04 20:29:19,461 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:20,471 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:21,486 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:22,492 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:23,503 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:24,515 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:25,517 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:26,530 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:27,543 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:28,556 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:29,568 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:30,578 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:31,593 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:32,608 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:33,618 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:34,623 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:35,631 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:36,639 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:37,652 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:38,664 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:39,668 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:40,679 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:41,690 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:42,702 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:43,718 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:44,730 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:45,735 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:46,741 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:47,742 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:48,757 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:49,766 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:50,768 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:51,775 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:52,779 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:53,795 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:54,809 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:55,825 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:56,826 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:57,830 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:58,833 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:29:59,841 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:00,849 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:01,855 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:02,866 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:03,872 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:04,878 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:05,890 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:06,892 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:07,902 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:08,917 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:09,930 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:10,939 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:11,952 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:12,846 - src.api.routes - INFO - Processando mensagem. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa, Mensagem: ola, lembra meu nome?...
+2025-03-04 20:30:12,847 - src.agent.chat_agent - INFO - Processando chat. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa
+2025-03-04 20:30:12,967 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:13,983 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:14,401 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:30:14,989 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:15,992 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:16,210 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:30:17,007 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:30:17,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:30:17,407 - memory_background - INFO - Agendando processamento de memória para o usuário default_user com atraso de 30.0s
+2025-03-04 20:30:17,408 - src.api.routes - INFO - Resposta gerada para default_user: Oi! Eu não tenho seu nome arma...
+2025-03-04 20:30:18,410 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:30:19,412 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:30:20,413 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:30:21,416 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:30:22,418 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:30:22,575 - src.api.routes - INFO - Processando mensagem. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa, Mensagem: é antonio...
+2025-03-04 20:30:22,578 - src.agent.chat_agent - INFO - Processando chat. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa
+2025-03-04 20:30:23,179 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:30:23,420 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:30:24,421 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:30:24,744 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:30:25,072 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:30:25,420 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:30:25,423 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:30:26,297 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:30:26,425 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:30:27,071 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:30:27,117 - memory_background - INFO - Agendando processamento de memória para o usuário default_user com atraso de 30.0s
+2025-03-04 20:30:27,118 - memory_background - INFO - Processamento de memória cancelado para o usuário default_user
+2025-03-04 20:30:27,120 - src.api.routes - INFO - Resposta gerada para default_user: Ótimo, Antonio! Como posso te ...
+2025-03-04 20:30:27,426 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:28,428 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:29,430 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:30,432 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:31,434 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:32,436 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:33,438 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:34,439 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:35,441 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:36,442 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:37,443 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:38,446 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:38,910 - src.api.routes - INFO - Processando mensagem. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa, Mensagem: quero saber qual a menor raça ...
+2025-03-04 20:30:38,911 - src.agent.chat_agent - INFO - Processando chat. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa
+2025-03-04 20:30:39,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:30:39,453 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:40,471 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:40,569 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:30:41,475 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:41,613 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:30:41,672 - memory_background - INFO - Agendando processamento de memória para o usuário default_user com atraso de 30.0s
+2025-03-04 20:30:41,673 - memory_background - INFO - Processamento de memória cancelado para o usuário default_user
+2025-03-04 20:30:41,674 - src.api.routes - INFO - Resposta gerada para default_user: A menor raça de cachorro do mu...
+2025-03-04 20:30:42,476 - langmem.reflection - INFO - Queue size: 3
+2025-03-04 20:30:43,478 - langmem.reflection - INFO - Queue size: 3
+2025-03-04 20:30:44,479 - langmem.reflection - INFO - Queue size: 3
+2025-03-04 20:30:45,480 - langmem.reflection - INFO - Queue size: 3
+2025-03-04 20:30:46,481 - langmem.reflection - INFO - Queue size: 3
+2025-03-04 20:30:47,411 - langmem.reflection - ERROR - Error in local reflection worker: CANCELLED: <Future at 0x1b3cf29b530 state=cancelled>
+2025-03-04 20:30:47,412 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:48,415 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:49,416 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:50,418 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:51,420 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:52,422 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:53,134 - src.api.routes - INFO - Processando mensagem. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa, Mensagem: legal...
+2025-03-04 20:30:53,134 - src.agent.chat_agent - INFO - Processando chat. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa
+2025-03-04 20:30:53,424 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:53,983 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:30:54,426 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:55,095 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:30:55,427 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:56,428 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:30:57,120 - langmem.reflection - ERROR - Error in local reflection worker: CANCELLED: <Future at 0x1b3cf887ec0 state=cancelled>
+2025-03-04 20:30:57,127 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:30:58,133 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:30:59,135 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:31:00,136 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:31:00,418 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:31:00,489 - memory_background - INFO - Agendando processamento de memória para o usuário default_user com atraso de 30.0s
+2025-03-04 20:31:00,490 - src.api.routes - INFO - Resposta gerada para default_user: Fico feliz que tenha achado in...
+2025-03-04 20:50:42,968 - __main__ - INFO - Iniciando chatbot com LangMem
+2025-03-04 20:50:42,968 - __main__ - INFO - Criando armazenamento de memória
+2025-03-04 20:50:46,127 - __main__ - INFO - Criando agente de chat com gerenciador de memória
+2025-03-04 20:50:46,127 - src.agent.chat_agent - INFO - Criando agente de chat com modelo gpt-4o-mini
+2025-03-04 20:50:46,127 - src.agent.chat_agent - INFO - Configurando ferramentas de memória
+2025-03-04 20:50:46,153 - src.agent.chat_agent - INFO - Inicializando modelo gpt-4o-mini
+2025-03-04 20:50:49,396 - src.agent.chat_agent - INFO - Criando agente ReAct com ferramentas de memória
+2025-03-04 20:50:49,419 - src.agent.chat_agent - INFO - Criando gerenciador de memória em segundo plano
+2025-03-04 20:50:49,419 - memory_background - INFO - Criando gerenciador de memória em segundo plano com modelo gpt-4o-mini
+2025-03-04 20:50:52,054 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:50:52,054 - memory_background - INFO - Gerenciador de memória em segundo plano criado com sucesso
+2025-03-04 20:50:52,054 - src.agent.chat_agent - INFO - Criando gerenciador de perfis de usuário
+2025-03-04 20:50:53,063 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:50:54,068 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:50:55,071 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:50:56,075 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:50:56,344 - src.agent.chat_agent - INFO - Agente de chat criado com sucesso
+2025-03-04 20:50:56,345 - __main__ - INFO - Criando API
+2025-03-04 20:50:56,346 - src.api.routes - INFO - Inicializando API do chatbot
+2025-03-04 20:50:56,353 - src.api.routes - INFO - API do chatbot inicializada com sucesso
+2025-03-04 20:50:56,354 - __main__ - INFO - Iniciando servidor na porta 8000...
+2025-03-04 20:50:57,077 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:50:58,084 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:50:59,099 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:00,117 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:01,133 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:02,137 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:03,146 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:04,161 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:05,162 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:06,176 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:07,186 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:08,197 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:09,201 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:10,208 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:11,212 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:12,213 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:13,228 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:14,239 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:15,251 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:16,264 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:17,276 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:18,281 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:19,296 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:20,305 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:21,322 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:22,329 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:23,331 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:24,342 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:25,343 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:26,344 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:27,359 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:28,364 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:29,375 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:30,388 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:31,391 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:32,406 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:33,418 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:34,437 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:35,460 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:36,471 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:37,484 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:38,499 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:39,508 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:40,524 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:41,534 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:42,547 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:43,556 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:44,569 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:45,580 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:46,583 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:47,584 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:48,279 - src.api.routes - INFO - Processando mensagem. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa, Mensagem: ola, lembra do meu nome?...
+2025-03-04 20:51:48,280 - src.agent.chat_agent - INFO - Processando chat. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa
+2025-03-04 20:51:48,586 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:49,592 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:49,971 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:51:50,603 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:51,617 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:51,707 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:51:52,514 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:51:52,623 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:53,266 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:51:53,637 - langmem.reflection - INFO - Queue size: 0
+2025-03-04 20:51:54,241 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:51:54,265 - memory_background - INFO - Agendando processamento de memória para o usuário default_user com atraso de 30.0s
+2025-03-04 20:51:54,265 - src.api.routes - INFO - Resposta gerada para default_user: Não consegui encontrar seu nom...
+2025-03-04 20:51:55,266 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:51:56,268 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:51:57,269 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:51:58,270 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:51:59,272 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:00,274 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:01,275 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:02,276 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:03,278 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:04,279 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:05,280 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:06,282 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:07,274 - src.api.routes - INFO - Processando mensagem. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa, Mensagem: antonio!...
+2025-03-04 20:52:07,276 - src.agent.chat_agent - INFO - Processando chat. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa
+2025-03-04 20:52:07,285 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:08,046 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:52:08,288 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:08,837 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:52:09,215 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:52:09,291 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:10,127 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:52:10,293 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:10,993 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:52:11,294 - langmem.reflection - INFO - Queue size: 1
+2025-03-04 20:52:12,091 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:52:12,142 - memory_background - INFO - Agendando processamento de memória para o usuário default_user com atraso de 30.0s
+2025-03-04 20:52:12,143 - memory_background - INFO - Processamento de memória cancelado para o usuário default_user
+2025-03-04 20:52:12,144 - src.api.routes - INFO - Resposta gerada para default_user: Ótimo, Antonio! Agora eu me le...
+2025-03-04 20:52:12,296 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:13,299 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:14,300 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:14,413 - src.api.routes - INFO - Processando mensagem. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa, Mensagem: qual o menor cachorro do mundo...
+2025-03-04 20:52:14,414 - src.agent.chat_agent - INFO - Processando chat. Usuário: default_user, Thread: 0512c1d0-a9b0-45f1-b474-cb70151f5efa
+2025-03-04 20:52:15,301 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:15,377 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-04 20:52:16,302 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:17,304 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:17,340 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:52:18,307 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:19,309 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:19,826 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-04 20:52:19,860 - memory_background - INFO - Agendando processamento de memória para o usuário default_user com atraso de 30.0s
+2025-03-04 20:52:19,860 - memory_background - INFO - Processamento de memória cancelado para o usuário default_user
+2025-03-04 20:52:19,861 - src.api.routes - INFO - Resposta gerada para default_user: O menor cachorro do mundo é ge...
+2025-03-04 20:52:20,311 - langmem.reflection - INFO - Queue size: 3
+2025-03-04 20:52:21,313 - langmem.reflection - INFO - Queue size: 3
+2025-03-04 20:52:22,314 - langmem.reflection - INFO - Queue size: 3
+2025-03-04 20:52:23,328 - langmem.reflection - INFO - Queue size: 3
+2025-03-04 20:52:24,266 - langmem.reflection - ERROR - Error in local reflection worker: CANCELLED: <Future at 0x238c88a6150 state=cancelled>
+2025-03-04 20:52:24,266 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:25,268 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:26,269 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:27,270 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:28,271 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:29,272 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:30,276 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:31,278 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:32,280 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:33,282 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:34,283 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:35,284 - langmem.reflection - INFO - Queue size: 2
+2025-03-04 20:52:36,286 - langmem.reflection - INFO - Queue size: 2
