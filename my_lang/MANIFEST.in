@@ -1,4 +1,0 @@
-include my_lang/src/api/static/*
-include my_lang/.env.example
-include my_lang/README.md
-include my_lang/requirements.txt 
