@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot com LangMem</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #4a6fa5;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+        }
+        
+        .message {
+            margin-bottom: 1rem;
+            padding: 0.8rem;
+            border-radius: 8px;
+            max-width: 80%;
+        }
+        
+        .user-message {
+            background-color: #e3f2fd;
+            align-self: flex-end;
+            margin-left: auto;
+        }
+        
+        .assistant-message {
+            background-color: #f1f1f1;
+            align-self: flex-start;
+        }
+        
+        .input-container {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        #message-input {
+            flex: 1;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        button {
+            padding: 0.8rem 1.5rem;
+            background-color: #4a6fa5;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        button:hover {
+            background-color: #3a5a8f;
+        }
+        
+        .user-info {
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .user-info input {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chatbot com LangMem</h1>
+        <p>Um assistente inteligente com memória de longo prazo</p>
+    </header>
+    
+    <div class="container">
+        <div class="user-info">
+            <input type="text" id="user-id" placeholder="ID do Usuário (opcional)" />
+            <button id="set-user">Definir Usuário</button>
+        </div>
+        
+        <div class="chat-container" id="chat-container">
+            <div class="message assistant-message">
+                Olá! Sou um assistente com memória de longo prazo. Como posso ajudar você hoje?
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <input type="text" id="message-input" placeholder="Digite sua mensagem..." />
+            <button id="send-button">Enviar</button>
+        </div>
+    </div>
+    
+    <script>
+        // Elementos do DOM
+        const chatContainer = document.getElementById('chat-container');
+        const messageInput = document.getElementById('message-input');
+        const sendButton = document.getElementById('send-button');
+        const userIdInput = document.getElementById('user-id');
+        const setUserButton = document.getElementById('set-user');
+        
+        // Estado da aplicação
+        let userId = 'default_user';
+        let threadId = null;
+        
+        // Função para adicionar mensagem ao chat
+        function addMessage(content, isUser) {
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message');
+            messageDiv.classList.add(isUser ? 'user-message' : 'assistant-message');
+            messageDiv.textContent = content;
+            
+            chatContainer.appendChild(messageDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+        
+        // Função para enviar mensagem ao servidor
+        async function sendMessage(message) {
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        user_id: userId,
+                        thread_id: threadId,
+                    }),
+                });
+                
+                if (!response.ok) {
+                    throw new Error('Erro ao enviar mensagem');
+                }
+                
+                const data = await response.json();
+                threadId = data.thread_id;
+                
+                return data.response;
+            } catch (error) {
+                console.error('Erro:', error);
+                return 'Desculpe, ocorreu um erro ao processar sua mensagem.';
+            }
+        }
+        
+        // Event listener para o botão de enviar
+        sendButton.addEventListener('click', async () => {
+            const message = messageInput.value.trim();
+            
+            if (message) {
+                // Adiciona a mensagem do usuário ao chat
+                addMessage(message, true);
+                
+                // Limpa o input
+                messageInput.value = '';
+                
+                // Envia a mensagem ao servidor e obtém a resposta
+                const response = await sendMessage(message);
+                
+                // Adiciona a resposta do assistente ao chat
+                addMessage(response, false);
+            }
+        });
+        
+        // Event listener para o input (pressionar Enter)
+        messageInput.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') {
+                sendButton.click();
+            }
+        });
+        
+        // Event listener para definir o ID do usuário
+        setUserButton.addEventListener('click', () => {
+            const newUserId = userIdInput.value.trim();
+            
+            if (newUserId) {
+                userId = newUserId;
+                threadId = null; // Reseta o thread ID para iniciar uma nova conversa
+                alert(`ID do usuário definido como: ${userId}`);
+                
+                // Limpa o chat
+                chatContainer.innerHTML = '';
+                addMessage('Olá! Sou um assistente com memória de longo prazo. Como posso ajudar você hoje?', false);
+            }
+        });
+    </script>
+</body>
+</html> 
